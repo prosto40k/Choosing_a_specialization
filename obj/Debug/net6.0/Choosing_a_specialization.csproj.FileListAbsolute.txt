@@ -1,0 +1,15 @@
+C:\Users\chain\OneDrive\Рабочий стол\У\Geekbr\git_control\NNL\Choosing_a_specialization\bin\Debug\net6.0\Choosing_a_specialization.exe
+C:\Users\chain\OneDrive\Рабочий стол\У\Geekbr\git_control\NNL\Choosing_a_specialization\bin\Debug\net6.0\Choosing_a_specialization.deps.json
+C:\Users\chain\OneDrive\Рабочий стол\У\Geekbr\git_control\NNL\Choosing_a_specialization\bin\Debug\net6.0\Choosing_a_specialization.runtimeconfig.json
+C:\Users\chain\OneDrive\Рабочий стол\У\Geekbr\git_control\NNL\Choosing_a_specialization\bin\Debug\net6.0\Choosing_a_specialization.dll
+C:\Users\chain\OneDrive\Рабочий стол\У\Geekbr\git_control\NNL\Choosing_a_specialization\bin\Debug\net6.0\Choosing_a_specialization.pdb
+C:\Users\chain\OneDrive\Рабочий стол\У\Geekbr\git_control\NNL\Choosing_a_specialization\obj\Debug\net6.0\Choosing_a_specialization.csproj.AssemblyReference.cache
+C:\Users\chain\OneDrive\Рабочий стол\У\Geekbr\git_control\NNL\Choosing_a_specialization\obj\Debug\net6.0\Choosing_a_specialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chain\OneDrive\Рабочий стол\У\Geekbr\git_control\NNL\Choosing_a_specialization\obj\Debug\net6.0\Choosing_a_specialization.AssemblyInfoInputs.cache
+C:\Users\chain\OneDrive\Рабочий стол\У\Geekbr\git_control\NNL\Choosing_a_specialization\obj\Debug\net6.0\Choosing_a_specialization.AssemblyInfo.cs
+C:\Users\chain\OneDrive\Рабочий стол\У\Geekbr\git_control\NNL\Choosing_a_specialization\obj\Debug\net6.0\Choosing_a_specialization.csproj.CoreCompileInputs.cache
+C:\Users\chain\OneDrive\Рабочий стол\У\Geekbr\git_control\NNL\Choosing_a_specialization\obj\Debug\net6.0\Choosing_a_specialization.dll
+C:\Users\chain\OneDrive\Рабочий стол\У\Geekbr\git_control\NNL\Choosing_a_specialization\obj\Debug\net6.0\refint\Choosing_a_specialization.dll
+C:\Users\chain\OneDrive\Рабочий стол\У\Geekbr\git_control\NNL\Choosing_a_specialization\obj\Debug\net6.0\Choosing_a_specialization.pdb
+C:\Users\chain\OneDrive\Рабочий стол\У\Geekbr\git_control\NNL\Choosing_a_specialization\obj\Debug\net6.0\Choosing_a_specialization.genruntimeconfig.cache
+C:\Users\chain\OneDrive\Рабочий стол\У\Geekbr\git_control\NNL\Choosing_a_specialization\obj\Debug\net6.0\ref\Choosing_a_specialization.dll
