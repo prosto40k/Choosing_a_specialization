@@ -7,7 +7,7 @@ void Print (string[] a)
 {
   for (int i = 0; i < a.Length; i++)
   {
-      System.Console.Write($"[{a[i]+"]"+" ,"}");
+      System.Console.Write($"[{a[i]+"]"+" "}");
   }
   
 }
@@ -16,16 +16,27 @@ void PrintChange (string[] a,int size=5)
 {
   int i=0;
   int w =-1;
-  int f =new Random().Next(1,3);
+  int f =new Random().Next(1,4);
+  int w1=-1;
+  int w2=-1;
   while (i<=f)
   {
     int q=new Random().Next(0,size-1);
-    if (w!=q)
+    w1=q;//1значение,2значениеб,3знач
+    if (w1!=w)//1значение-1,2 и 1,3знач и 2знач
     {
-      System.Console.Write($"[{a[q]+"]"+" ,"}");
-      i++;
+      
+      if (w1!=w2)//1значение с-1,2 и -1,3знач и 1знач
+      {
+        w2=w;//=-1,1знач,2знач
+        if (w!=q)
+      {
+        System.Console.Write($"[{a[q]+"]"+" "}");
+        i++;
+        w=q;//1значение,2знач
+      }
+      } 
     }
-    w=q;
   }
 }
 
