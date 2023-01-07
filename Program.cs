@@ -12,31 +12,26 @@ void Print (string[] a)
   
 }
 
-void PrintChange (string[] a,int size=5)
+void PrintChange (string[] a)
 {
   int i=0;
-  int w =-1;
-  int f =new Random().Next(1,4);
-  int w1=-1;
-  int w2=-1;
+  int box =-1;
+  int f =new Random().Next(0,3);
+  int box1=-1;
+
   while (i<=f)
   {
-    int q=new Random().Next(0,size-1);
-    w1=q;//1значение,2значениеб,3знач
-    if (w1!=w)//1значение-1,2 и 1,3знач и 2знач
+    int q=new Random().Next(0,a.Length);
+    if (q!=box)
     {
-      
-      if (w1!=w2)//1значение с-1,2 и -1,3знач и 1знач
+      if (q!=box1)
       {
-        w2=w;//=-1,1знач,2знач
-        if (w!=q)
-      {
+        box1=box;
         System.Console.Write($"[{a[q]+"]"+" "}");
         i++;
-        w=q;//1значение,2знач
-      }
+        box=q;
       } 
-    }
+     }
   }
 }
 
@@ -48,7 +43,7 @@ string a ="asdfg";
 string b ="qwert";
 string c ="zxcvb";
 string d ="';lk'";
-string e ="/.,mn";
+string e ="mnbvcv";
 t[0]=a;
 t[1]=b;
 t[2]=c;
