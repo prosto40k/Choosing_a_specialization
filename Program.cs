@@ -12,6 +12,22 @@ void Print (string[] a)
   
 }
 
+void PrintChange (string[] a,int size=5)
+{
+  int i=0;
+  int w =-1;
+  int f =new Random().Next(1,3);
+  while (i<=f)
+  {
+    int q=new Random().Next(0,size-1);
+    if (w!=q)
+    {
+      System.Console.Write($"[{a[q]+"]"+" ,"}");
+      i++;
+    }
+    w=q;
+  }
+}
 
 int N=5;
 //string[] t=new string[N];
@@ -30,4 +46,5 @@ t[4]=e;
 
 Print(t);
 System.Console.WriteLine();
+PrintChange(t);
 
