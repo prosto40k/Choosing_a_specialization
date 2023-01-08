@@ -8,30 +8,29 @@ void Print (string[] a)
   for (int i = 0; i < a.Length; i++)
   {
       System.Console.Write($"[{a[i]+"]"+" "}");
-  }
-  
+  }  
 }
 
 void PrintChange (string[] a)
 {
   int i=0;
   int box =-1;
-  int f =new Random().Next(0,3);
+  int size =new Random().Next(0,3);
   int box1=-1;
 
-  while (i<=f)
+  while (i<=size)
   {
-    int q=new Random().Next(0,a.Length);
-    if (q!=box)
+    int randIndex=new Random().Next(0,a.Length);
+    if (randIndex!=box)
     {
-      if (q!=box1)
+      if (randIndex!=box1)
       {
         box1=box;
-        System.Console.Write($"[{a[q]+"]"+" "}");
+        System.Console.Write($"[{a[randIndex]+"]"+" "}");
         i++;
-        box=q;
+        box=randIndex;
       } 
-     }
+    }
   }
 }
 
